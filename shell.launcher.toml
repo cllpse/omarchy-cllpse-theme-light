@@ -1,8 +1,18 @@
 [launcher]
-# omarchy-cllpse-theme — BUILD.md §6: Spotlight is more translucent than a menu (0.85)
-# and dims the desktop only lightly (scrim 0.35). Whole-section replace; same
-# token set as [menu]. Needs the omarchy-menu layer blur rule (the launcher and
-# the menu share that one surface namespace).
+# omarchy-cllpse-theme — BUILD.md §6: INERT on Omarchy 4.0.2. Nothing reads
+# launcher.*, so no value in this file reaches the screen. Color.qml defines
+# bar/popups/tooltip/notifications/menu/polkit/lock/imagePicker and no launcher
+# surface; there is no launcher plugin and no omarchy-launcher layer namespace.
+# What SUPER+SPACE opens is the menu plugin -- Menu.qml, namespace omarchy-menu,
+# reading Color.menu.* -- so shell.menu.toml is what actually styles it, and the
+# blur layer_rule in overrides/hypr/looknfeel-decoration.lua covers it under
+# `menu` for the same reason. Omarchy ships this section in its own
+# default/themed/shell.toml.tpl and describes it as "applied to the launcher
+# overlay", so it is spliced into the generated shell.toml and read by nobody.
+#
+# Kept, and kept mirroring [menu] key for key, so the launcher stays correct if
+# Omarchy ever wires the section up. BUILD.md §6 starts Spotlight at 0.85 with a
+# 0.35 scrim; the shipped 1.0/0.25 track [menu] instead.
 background                = "background"
 background-alpha          = 1.0
 text                      = "#272727"   # foreground — text is a plain pick(), never unwrapped through flatColor()

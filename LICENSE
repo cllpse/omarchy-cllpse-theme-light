@@ -1,10 +1,13 @@
 This license covers the original work in this repository: the theme
 configuration (colors.toml, shell.*.toml, icons.theme, chromium.theme), the
-generated colour sheet, and the documentation.
+generated colour sheet, the boot/login art (unlock.png, unlock.svg and the
+preview-unlock.png rendered from it -- a per-letter recolouring of the OMARCHY
+wordmark Omarchy ships with its own themes), and the documentation.
 
-It does NOT cover the wallpapers under backgrounds/, which remain the
-property of their respective owners and are redistributed neither under this
-license nor with any claim of ownership.
+It does NOT cover the wallpapers under backgrounds/, nor preview.png, which
+reproduces Apple's logo. Those remain the property of their respective owners
+and are redistributed neither under this license nor with any claim of
+ownership.
 
 ---
 
