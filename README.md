@@ -27,7 +27,7 @@ appends it to your own `~/.config/hypr/looknfeel.lua`.
 | file | what it does |
 |---|---|
 | `colors.toml` | the palette and `mode`; drives every generated config |
-| `shell.*.toml` | per-section shell surface overrides (opacity, spacing) |
+| `shell.*.toml` | per-section shell surface overrides (opacity, the menu's selected-row colour) |
 | `icons.theme` | the GTK icon theme name |
 | `chromium.theme` | Chromium's frame colour |
 | `backgrounds/` | wallpapers; the `00-` prefix pins the default |
