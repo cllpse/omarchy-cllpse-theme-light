@@ -1,6 +1,7 @@
 # cllpse-macos — light palette
-# Values are macOS 27 (Tahoe) NSColor readings converted to sRGB, per
-# reference/BUILD.md §2. These are authoritative: what macOS reports.
+# Values are macOS 27 NSColor readings converted to sRGB, per
+# reference/BUILD.md §2. The hues are the set macOS 26 (Tahoe) retuned, which
+# 27 keeps. These are authoritative: what macOS reports.
 # Do not adjust or reconcile against other themes.
 
 mode = "light"
