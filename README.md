@@ -31,7 +31,7 @@ appends it to your own `~/.config/hypr/looknfeel.lua`.
 | `shell.*.toml` | per-section shell surface overrides (opacity, the menu's selected-row colour). `shell.launcher.toml` is read by nothing on Omarchy 4.0.4: its SUPER+SPACE is the menu plugin, styled by `shell.menu.toml`. Kept mirroring it in case Omarchy wires `[launcher]` up; its own comment has the detail |
 | `icons.theme` | the GTK icon theme name |
 | `chromium.theme` | Chromium's frame colour |
-| `backgrounds/` | wallpapers; the `00-` prefix pins the default |
+| `backgrounds/` | wallpapers; the `00` prefix pins the default, `00_HongdaeiMac.webp`. That one is the dark theme's moved onto `#F0EFEF`: opacity from how much lighter each pixel is than its flat `#181A1D`, darkness that opacity cannot explain dropped, lossless |
 | `colors.svg` | generated reference sheet, read by nothing |
 | `unlock.png`, `preview*.png` | Plymouth/SDDM art and the picker thumbnail |
 | `unlock.svg` | vector source of `unlock.png`, one rect per pixel; read by nothing, and it does not stay in sync |
